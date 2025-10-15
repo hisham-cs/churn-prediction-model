@@ -27,7 +27,8 @@ A crucial part of this project was understanding the impact of **class imbalance
 
 The initial model achieved a seemingly high accuracy of **~81%**. However, it performed poorly on the most important task: identifying customers who would actually churn. Its **Recall** was only **55%**, meaning it missed almost half of the at-risk customers.
 
-![Confusion Matrix Before Balancing](download (1).png)
+<img width="563" height="455" alt="download (1)" src="https://github.com/user-attachments/assets/8f9fb814-96eb-474f-ba6e-e12dd52f7cda" />
+
 
 ### Model 2: After Balancing
 
@@ -38,7 +39,8 @@ To solve this, the `class_weight='balanced'` parameter was used in the Logistic 
 
 This shows that the improved model is now able to correctly identify the vast majority of customers who are likely to churn.
 
-![Confusion Matrix After Balancing](download (2).png)
+<img width="563" height="455" alt="download (2)" src="https://github.com/user-attachments/assets/3ffe6ace-581b-4eec-af80-49ea5cc17e14" />
+
 
 ## 💡 Conclusion
 
